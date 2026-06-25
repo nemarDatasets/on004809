@@ -3,7 +3,7 @@
   "pipeline_stage": "enriched",
   "title": "Categorized Free Recall: Delayed Free Recall of Word Lists Organized by Semantic Categories",
   "description": "This dataset comprises behavioral events and intracranial electrophysiological recordings from a categorized free recall task conducted across multiple clinical sites. Participants studied semantically organized word lists (12 items from 3 categories with paired exemplars), performed a distractor task, and freely recalled the words. The dataset includes monopolar and bipolar iEEG recordings with electrode localization information, supporting investigations of memory encoding and retrieval processes.",
-  "methods_description": "Participants studied visually presented word lists organized into semantic categories (12 items per list from 3 categories with 4 words per category). After list presentation, participants completed arithmetic problems as a distractor task before freely recalling words in any order. Intracranial electrophysiological recordings were acquired using multiple systems across clinical sites, with monopolar (referenced) and bipolar recordings provided. Electrode locations include MNI and Talairach coordinates with brain region annotations.",
+  "methods_description": "Participants studied visually presented word lists organized into semantic categories (12 items per list, 6 pairs from 3 different categories), completed arithmetic distractor tasks, and performed free recall. Intracranial EEG recordings were acquired using multiple systems and standardized to voltage units (V). Monopolar recordings were referenced (typically mastoid) and bipolar recordings followed paired electrode schemes. MNI and Talairach coordinates with brain region annotations are provided for each subject's unique electrode montage.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,31 +12,37 @@
   },
   "keywords": [
     {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "iEEG"
-    },
-    {
       "term": "free recall"
     },
     {
-      "term": "delayed free recall"
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "semantic memory"
     },
     {
       "term": "memory encoding"
     },
     {
-      "term": "semantic categorization"
-    },
-    {
       "term": "electrophysiology"
     },
     {
-      "term": "categorized free recall"
+      "term": "categorized word lists"
     },
     {
-      "term": "multi-site"
+      "term": "semantic categories"
+    },
+    {
+      "term": "distractor task"
+    },
+    {
+      "term": "electrode localization"
+    },
+    {
+      "term": "brain mapping"
+    },
+    {
+      "term": "multi-site collaboration"
     }
   ],
   "related_identifiers": [

@@ -2,18 +2,44 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Categorized Free Recall: Delayed Free Recall of Word Lists Organized by Semantic Categories",
+  "description": "This dataset comprises behavioral events and intracranial electrophysiological recordings from a categorized free recall task conducted across multiple clinical sites. Participants studied semantically organized word lists (12 items from 3 categories with paired exemplars), performed a distractor task, and freely recalled the words. The dataset includes monopolar and bipolar iEEG recordings with electrode localization information, supporting investigations of memory encoding and retrieval processes.",
+  "methods_description": "Participants studied visually presented word lists organized into semantic categories (12 items per list from 3 categories with 4 words per category). After list presentation, participants completed arithmetic problems as a distractor task before freely recalling words in any order. Intracranial electrophysiological recordings were acquired using multiple systems across clinical sites, with monopolar (referenced) and bipolar recordings provided. Electrode locations include MNI and Talairach coordinates with brain region annotations.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Haydn G. Herrema": {},
     "Michael J. Kahana": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004809.v2.2.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "intracranial EEG"
     },
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "free recall"
+    },
+    {
+      "term": "delayed free recall"
+    },
+    {
+      "term": "memory encoding"
+    },
+    {
+      "term": "semantic categorization"
+    },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "categorized free recall"
+    },
+    {
+      "term": "multi-site"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004809",
       "identifier_type": "URL",
@@ -28,6 +54,11 @@
       "identifier": "10.18112/openneuro.ds004809",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004809.v2.2.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -46,57 +77,21 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "ieeg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "512.3 GB (892 files)"
   ],
   "formats": [
     ".edf",
     ".json",
     ".md",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "This dataset comprises behavioral events and intracranial electrophysiological recordings from a categorized free recall task conducted across multiple clinical sites. Participants studied semantically organized word lists (12 items from 3 categories with paired exemplars), performed arithmetic distraction tasks, and freely recalled words. The unique experimental design manipulates semantic category structure to investigate memory organization and retrieval dynamics.",
-  "methods_description": "Participants studied visually presented word lists organized into semantic categories, with each 12-item list containing 6 pairs of same-category words from 3 different categories. After list presentation, participants completed arithmetic problems as a distractor task before freely recalling words in any order. Intracranial EEG recordings were acquired using multiple systems and are provided in monopolar (referenced, typically mastoid) and bipolar configurations with accompanying channel tables and anatomical coordinates (MNI and Talairach when available).",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "free recall"
-    },
-    {
-      "term": "semantic memory"
-    },
-    {
-      "term": "memory retrieval"
-    },
-    {
-      "term": "categorized word lists"
-    },
-    {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "multi-site"
-    },
-    {
-      "term": "clinical collaboration"
-    },
-    {
-      "term": "distraction task"
-    },
-    {
-      "term": "memory organization"
-    },
-    {
-      "term": "multi-center study"
-    }
-  ],
-  "source_hash": "c350f18eedf40c887202c1afa86635d4b245d9c0fce52607a2daec2de760a831"
+  "source_hash": "504cf9df09413e96565f915517aa7abc47ff76b3b1ad7b91101d8c426d673ef5"
 }

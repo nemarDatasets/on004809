@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Categorized Free Recall: Delayed Free Recall of Word Lists Organized by Semantic Categories",
-  "description": "This dataset comprises behavioral events and intracranial electrophysiological recordings from a categorized free recall task conducted across multiple clinical sites. Participants studied semantically organized word lists (12 items from 3 categories with paired exemplars), performed a distractor task, and freely recalled the words. The dataset includes monopolar and bipolar iEEG recordings with electrode localization information, supporting investigations of memory encoding and retrieval processes.",
-  "methods_description": "Participants studied visually presented word lists organized into semantic categories (12 items per list, 6 pairs from 3 different categories), completed arithmetic distractor tasks, and performed free recall. Intracranial EEG recordings were acquired using multiple systems and standardized to voltage units (V). Monopolar recordings were referenced (typically mastoid) and bipolar recordings followed paired electrode schemes. MNI and Talairach coordinates with brain region annotations are provided for each subject's unique electrode montage.",
+  "description": "This dataset provides behavioral events and intracranial EEG recordings from a categorized delayed free recall task. Participants studied visually presented word lists built from 25 semantic categories, completed arithmetic distractor problems, and then freely recalled the words. Each 12-word list contains pairs of same-category words from three categories. Data were collected at multiple clinical sites in collaboration with the Computational Memory Lab at the University of Pennsylvania.",
+  "methods_description": "Participants studied lists of 12 words presented one at a time, solved simple arithmetic problems as a distractor, and freely recalled the words in any order. Intracranial recordings were made on multiple systems and scaled to volts, with monopolar and bipolar montages provided. Subject-specific electrode locations include MNI and Talairach coordinates and brain region annotations when available.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,47 +12,31 @@
   },
   "keywords": [
     {
-      "term": "free recall"
-    },
-    {
       "term": "intracranial EEG"
     },
     {
-      "term": "semantic memory"
-    },
-    {
-      "term": "memory encoding"
-    },
-    {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "categorized word lists"
+      "term": "free recall"
     },
     {
       "term": "semantic categories"
     },
     {
-      "term": "distractor task"
+      "term": "episodic memory"
     },
     {
-      "term": "electrode localization"
+      "term": "Memory",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
     },
     {
-      "term": "brain mapping"
-    },
-    {
-      "term": "multi-site collaboration"
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004809",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004809",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -65,6 +49,11 @@
       "identifier": "10.18112/openneuro.ds004809.v2.2.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004809",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -89,7 +78,7 @@
     "ieeg"
   ],
   "sizes": [
-    "512.3 GB (892 files)"
+    "477 GB (892 files)"
   ],
   "formats": [
     ".edf",

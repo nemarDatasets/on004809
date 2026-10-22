@@ -8,7 +8,7 @@
     "RecordingType": "continuous",
     "iEEGReference": "bipolar",
     "ECOGChannelCount": 0,
-    "SEEGChannelCount": 124,
+    "SEEGChannelCount": 117,
     "EEGChannelCount": 0,
     "EOGChannelCount": 0,
     "ECGChannelCount": 0,

@@ -1,0 +1,9 @@
+name	type	units	low_cutoff	high_cutoff	reference	group	sampling_frequency	description	notch
+LBMI2-LBMI3	SEEG	V	n/a	n/a	bipolar	LBMI	1000	micro	n/a
+LBMI4-LBMI5	SEEG	V	n/a	n/a	bipolar	LBMI	1000	micro	n/a
+LBMI6-LBMI7	SEEG	V	n/a	n/a	bipolar	LBMI	1000	micro	n/a
+LBMI8-LBMI1	SEEG	V	n/a	n/a	bipolar	LBMI	1000	micro	n/a
+LBMI10-LBMI11	SEEG	V	n/a	n/a	bipolar	LBMI	1000	micro	n/a
+LBMI12-LBMI13	SEEG	V	n/a	n/a	bipolar	LBMI	1000	micro	n/a
+LBMI14-LBMI15	SEEG	V	n/a	n/a	bipolar	LBMI	1000	micro	n/a
+LBMI16-LBMI9	SEEG	V	n/a	n/a	bipolar	LBMI	1000	micro	n/a

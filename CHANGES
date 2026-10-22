@@ -1,3 +1,8 @@
+2.2.1 2026-10-22
+  - 2026-10-19 electrode locations: sub-R1004D ses-0: MNI pair (outside the head) replaced by a space-Talairach pair (4 files). README: section 'Electrode locations (19 Oct 2026)'.
+  - channels.tsv of 11 recordings = the data-file header channel list (name, order, count; matched by name): 0 rows renamed to the header name, 0 rows added, 120 rows removed (kept in sourcedata/channels-removed-2026-10-18/), 0 files reordered. Before, mne_bids could not apply channels.tsv to these files (count or name mismatch).
+  - README: section 'Channel names follow the data headers'.
+
 2.2.0 2024-04-23
   - More informative event duration values for trial types with well defined durations.  Confirmed corrected response times for recall and math events.
 2.1.0 2024-04-17

@@ -1,0 +1,8 @@
+name	type	units	low_cutoff	high_cutoff	reference	group	sampling_frequency	description	notch
+35Ld2-35Ld3	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
+35Ld4-35Ld5	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
+35Ld6-35Ld7	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
+35Ld8-35Ld9	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
+3Ld10-3Ld11	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
+3Ld12-3Ld13	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
+3Ld14-3Ld1	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a

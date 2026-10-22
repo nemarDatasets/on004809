@@ -27,13 +27,9 @@ name	type	units	low_cutoff	high_cutoff	reference	group	sampling_frequency	descri
 23Ld7-23Ld8	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
 23Ld8-23Ld1	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
 35Ld1-35Ld2	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
-35Ld2-35Ld3	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
 35Ld3-35Ld4	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
-35Ld4-35Ld5	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
 35Ld5-35Ld1	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
-35Ld6-35Ld7	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
 35Ld7-35Ld8	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
-35Ld8-35Ld9	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
 35Ld9-35Ld6	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
 37Ld1-37Ld2	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
 37Ld2-37Ld3	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
@@ -58,11 +54,8 @@ name	type	units	low_cutoff	high_cutoff	reference	group	sampling_frequency	descri
 3Ld7-3Ld8	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
 3Ld8-3Ld9	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
 3Ld9-3Ld10	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
-3Ld10-3Ld11	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
 3Ld11-3Ld12	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
-3Ld12-3Ld13	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
 3Ld13-3Ld14	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
-3Ld14-3Ld1	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
 3Ld15-3Ld16	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
 27Ld1-27Ld2	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a
 27Ld2-27Ld3	SEEG	V	n/a	n/a	bipolar	Ld	1000	depth	n/a

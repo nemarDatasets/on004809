@@ -1,0 +1,6 @@
+name	type	units	low_cutoff	high_cutoff	reference	group	sampling_frequency	description	notch
+5Ld8-5Ld9	SEEG	V	n/a	n/a	bipolar	Ld	1000	micro	n/a
+5Ld10-5Ld11	SEEG	V	n/a	n/a	bipolar	Ld	1000	micro	n/a
+5Ld12-5Ld1	SEEG	V	n/a	n/a	bipolar	Ld	1000	micro	n/a
+5Ld14-5Ld15	SEEG	V	n/a	n/a	bipolar	Ld	1000	micro	n/a
+5Ld16-5Ld13	SEEG	V	n/a	n/a	bipolar	Ld	1000	micro	n/a

@@ -1,0 +1,50 @@
+{
+  "name": {
+    "Description": "Label of electrode."
+  },
+  "x": {
+    "Description": "x-axis position in Talairach coordinates",
+    "Units": "mm"
+  },
+  "y": {
+    "Description": "y-axis position in Talairach coordinates",
+    "Units": "mm"
+  },
+  "z": {
+    "Description": "z-axis position in Talairach coordinates",
+    "Units": "mm"
+  },
+  "size": {
+    "Description": "Surface area of electrode."
+  },
+  "group": {
+    "Description": "Group of channels electrode belongs to (same shank)."
+  },
+  "hemisphere": {
+    "Description": "Hemisphere of electrode location."
+  },
+  "type": {
+    "Description": "Type of electrode."
+  },
+  "ind.region": {
+    "Description": "Brain region of electrode location from surface neuroradiology pipeline."
+  },
+  "das.region": {
+    "Description": "Brain region of electrode location from hand annotations by neuroradiologist.  Usually in MTL."
+  },
+  "stein.region": {
+    "Description": "Brain region of electrode location from hand annotations by neurologist.  Usually in MTL."
+  },
+  "tal.x": {
+    "Description": "x-axis position in Talairach coordinates",
+    "Units": "mm"
+  },
+  "tal.y": {
+    "Description": "x-axis position in Talairach coordinates",
+    "Units": "mm"
+  },
+  "tal.z": {
+    "Description": "z-axis position in Talairach coordinates",
+    "Units": "mm"
+  }
+}
